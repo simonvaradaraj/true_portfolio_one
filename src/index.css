@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Public+Sans:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
 @font-face {
   font-family: "PP";
   src: url("../src/assets/font/PPWoodland-Bold.otf")
@@ -13,7 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: 'Public Sans', sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
 }

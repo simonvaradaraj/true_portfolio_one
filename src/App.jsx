@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="w-full h-full">
+        <div className="relative z-0">
           <Navbar/>
           <Hero/>
           <StarsCanvas />
