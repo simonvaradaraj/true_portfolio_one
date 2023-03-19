@@ -7,7 +7,7 @@ import github from './github.png'
 
 
 import figma from "./tech/figma.png";
-import git from "./tech/git.png";
+import sql from "./tech/sql.svg";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -23,7 +23,7 @@ export {
     menu,
     close,
     figma,
-    git,
+    sql,
     javascript,
     nodejs,
     reactjs,

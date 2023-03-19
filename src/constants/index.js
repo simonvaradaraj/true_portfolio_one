@@ -3,7 +3,6 @@ import {
   reactjs,
   tailwind,
   nodejs,
-  git,
   figma,
   threejs,
   opencv,
@@ -13,7 +12,8 @@ import {
   tradem,
   vibe,
   holocalc,
-  framer
+  framer,
+  sql
 } from "../assets";
 
 export const navLinks = [
@@ -65,8 +65,8 @@ export const technologies = [
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
+      name: "sql",
+      icon: sql,
     },
     {
       name: "figma",
