@@ -1,9 +1,13 @@
 import React from 'react'
+import { SectionWrapper } from '../hoc'
+
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <>
+    hi
+    </>
   )
 }
 
-export default Projects
+export default SectionWrapper(Projects, "works")
