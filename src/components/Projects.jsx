@@ -16,7 +16,7 @@ const ProjectCard = ({index, name, description, tag, image, source_code_link}) =
         speed: 450,
       }}
       className='bg-card p-5 sm:w-[360px] w-full border border-solid border-white h'>
-          <img src={image} alt={name} className="w-full h-[170px] object-fit" />
+          <img src={image} alt={name} className="w-full sm:h-[170px] h-100 sm:object-fit object-cover" />
       
           <div className="mt-5">
             <h3 className='font-pp text-white-100 font-bold text-[32px]'>{name}</h3>

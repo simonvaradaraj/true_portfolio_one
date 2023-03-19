@@ -20,7 +20,7 @@ const Techno = () => {
           <motion.div 
           animate={{y: [0, 15, 0]}} 
           transition={{
-              duration: 5, 
+              duration: 4.5, 
               delay: Math.random() * index,
               repeat: Infinity, 
               repeatType: 'loop'}}
