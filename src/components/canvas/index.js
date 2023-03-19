@@ -1,5 +1,7 @@
 import HomeCanvas from "./HomeCanvas";
-import TechCanvas from "./TechCanvas";
 import StarsCanvas from "./StarsCanvas";
+import MusicCanvas from "./MusicCanvas";
+import QueenCanvas from "./QueenCanvas";
+import SkateCanvas from "./SkateCanvas";
 
-export { TechCanvas, HomeCanvas, StarsCanvas };
+export { HomeCanvas, StarsCanvas, SkateCanvas, MusicCanvas, QueenCanvas };
