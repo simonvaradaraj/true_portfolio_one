@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import {Navbar, Hero, StarsCanvas, About} from "./components"
+import {Navbar, Hero, StarsCanvas, About, Techno} from "./components"
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
           <StarsCanvas />
         </div>
         <About/>
+        <Techno />
       </div>
     </BrowserRouter>
   )
