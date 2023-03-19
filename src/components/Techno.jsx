@@ -7,10 +7,10 @@ import { fadeIn, textVariant } from '../utils/motion'
 
 const Techno = () => {
   return (
-    <div className="mt-[-100px] flex w-full flex-col items-center justify-center">
+    <div className="sm:mt-[-100px] mt-[-70px] flex w-full flex-col items-center justify-center">
       <motion.p
         variants={textVariant("", "", .4, 1)}
-        className="text-[16px] text-white-100 mb-10"
+        className="sm:text-[16px] text-[14px] text-grayed mb-10"
 
       >Here's the some of the technologies I am proficient in</motion.p>
       <motion.div 

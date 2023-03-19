@@ -2,6 +2,8 @@ import React, {useState, useRef} from 'react'
 import {motion} from 'framer-motion'
 import emailjs from '@emailjs/browser'
 
+import swal from 'sweetalert';
+
 import { PhoneCanvas} from './canvas'
 import {SectionWrapper} from '../hoc';
 import { slideIn } from '../utils/motion'
@@ -40,7 +42,7 @@ const Contact = () => {
     )
     .then(() => {
       setLoading(false)
-      alert("Thanks");
+      alert("Thank you, I'll get to this soon");
 
       setForm(
         {
@@ -61,7 +63,7 @@ const Contact = () => {
     <div className='lg:mt-12 lg:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} 
       className="border border-phone flex-1 bg-car p-8">
-        <p className="text-[16px]">GET IN TOUCH</p>
+        <p className="sm:text-[16px] text-[14px] tracking-widest">GET IN TOUCH</p>
         <h2 className="font-pp text-[40px]">Contact Me.</h2>
 
         <form ref={formRef} onSubmit={handleSubmit}
