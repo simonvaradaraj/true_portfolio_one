@@ -10,7 +10,7 @@ const Techno = () => {
     <div className="m-0 flex w-full flex-col items-center justify-center">
       <motion.p
         variants={textVariant("", "", .4, 1)}
-        className="text-[18px] text-white-100 mb-10"
+        className="text-[16px] text-white-100 mb-10"
 
       >Here's the some of the technologies I am proficient in</motion.p>
       <motion.div 
