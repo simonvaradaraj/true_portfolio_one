@@ -2,7 +2,7 @@ import React, {useState, useRef} from 'react'
 import {motion} from 'framer-motion'
 import emailjs from '@emailjs/browser'
 
-import {HomeCanvas} from './canvas'
+import { PhoneCanvas} from './canvas'
 import {SectionWrapper} from '../hoc';
 import { slideIn } from '../utils/motion'
 
@@ -58,17 +58,17 @@ const Contact = () => {
   }
 
   return (
-    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-20 overflow-hidden'>
+    <div className='lg:mt-12 lg:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} 
-      className="border border-stars flex-1 bg-car p-8">
-        <p className="text-[18px]">தொடர்பு கொள்</p>
+      className="border border-phone flex-1 bg-car p-8">
+        <p className="text-[16px]">GET IN TOUCH</p>
         <h2 className="font-pp text-[40px]">Contact Me.</h2>
 
         <form ref={formRef} onSubmit={handleSubmit}
-        className="mt-8 flex flex-col gap-8">
+        className="mt-8 flex flex-col gap-8 lg:w-[35vw] ">
           <label className='flex flex-col'>
             <span className='text-white mb-4'>NAME</span>
-            <input type="text" name="name" value={form.name} onChange={handleChange} className="bg-card py-4 px-6 placeholder:text-grayed text-white outlined-none border-none font-medium" placeholder="What's your name?"/>
+            <input type="text" name="name" value={form.name} onChange={handleChange} className="bg-card py-4 px-6 placeholder:text-grayed text-white outlined-none border-none font-medium w-full" placeholder="What's your name?"/>
           </label>
 
           <label className='flex flex-col'>
@@ -88,7 +88,7 @@ const Contact = () => {
       </motion.div>
       <motion.div variants={slideIn('right', 'tween', 0.2, 1)}
       className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
-        <HomeCanvas />
+        <PhoneCanvas />
       </motion.div>
     </div>
   )

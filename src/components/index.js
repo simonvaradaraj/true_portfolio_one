@@ -5,7 +5,7 @@ import Techno from './Techno';
 import Projects from './Projects';
 import Contact from './Contact';
 
-import { HomeCanvas, StarsCanvas, SkateCanvas, MusicCanvas, QueenCanvas } from './canvas'
+import { HomeCanvas, StarsCanvas, SkateCanvas, MusicCanvas, QueenCanvas, PhoneCanvas } from './canvas'
 
 export {
     Hero,
@@ -18,5 +18,6 @@ export {
     StarsCanvas,
     SkateCanvas,
     MusicCanvas,
-    QueenCanvas
+    QueenCanvas,
+    PhoneCanvas
   }
