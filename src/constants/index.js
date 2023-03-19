@@ -10,6 +10,10 @@ import {
   python,
   tensorflow,
   azure,
+  tradem,
+  vibe,
+  holocalc,
+  framer
 } from "../assets";
 
 export const navLinks = [
@@ -43,6 +47,10 @@ export const technologies = [
     {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "framer",
+      icon: framer,
     },
     {
       name: "Node JS",
@@ -80,7 +88,7 @@ export const projects = [
       description:
         "React-based platform that encourages college-students to trade items with each other in order to prevent unnessary waste.",
       tag: "REACT",
-      // image: carrent,
+      image: tradem,
       source_code_link: "https://github.com/SloanBDavis/TradeEm",
     },
     {
@@ -88,7 +96,7 @@ export const projects = [
       description:
         "Python application that tracks a user's hand position, in order to input and compute values on an on-screen calulator. ",
       tag: "OPENCV",
-      // image: jobit,
+      image: holocalc,
       source_code_link: "https://github.com/simonvaradaraj/HoloCalc",
     },
     {
@@ -96,7 +104,7 @@ export const projects = [
       description:
         'A convenient web-based platform that offers curated recommendations for attractions, restaurants, and locations that fit a given "vibe".',
       tag: "REACT",
-      // image: tripguide,
+      image: vibe,
       source_code_link: "https://github.com/simonvaradaraj/vibe",
     },
   ];

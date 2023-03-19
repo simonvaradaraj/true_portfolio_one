@@ -1,5 +1,10 @@
 import close from './close.svg'
 import menu from './menu.svg'
+import holocalc from './holocalc.png'
+import vibe from './Vibe.jpg'
+import tradem from './Tradem-Homepage.png'
+import github from './github.png'
+
 
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -12,6 +17,7 @@ import python from './tech/python.svg'
 import opencv from './tech/opencv.svg'
 import tensorflow from './tech/tensorflow.png'
 import azure from './tech/azure.svg'
+import framer from './tech/framer-motion.svg'
 
 export {
     menu,
@@ -26,5 +32,10 @@ export {
     python,
     opencv,
     tensorflow,
-    azure
+    azure,
+    holocalc,
+    vibe,
+    tradem,
+    framer,
+    github
 }
