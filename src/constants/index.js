@@ -13,7 +13,8 @@ import {
   vibe,
   holocalc,
   framer,
-  sql
+  sql,
+  ccfd
 } from "../assets";
 
 export const navLinks = [
@@ -106,5 +107,13 @@ export const projects = [
       tag: "REACT",
       image: vibe,
       source_code_link: "https://github.com/simonvaradaraj/vibe",
+    },
+    {
+      name: "CCFD",
+      description:
+        'A study on what specific features of credit card data can be used to predict fraudulent transactions before they happen.',
+      tag: "SKLEARN",
+      image: ccfd,
+      source_code_link: "https://github.com/simonvaradaraj/CCFD",
     },
   ];

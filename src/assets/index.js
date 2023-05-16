@@ -4,6 +4,7 @@ import holocalc from './holocalc.png'
 import vibe from './Vibe.jpg'
 import tradem from './Tradem-Homepage.png'
 import github from './github.png'
+import ccfd from './ccfd.png'
 
 
 import figma from "./tech/figma.png";
@@ -37,5 +38,6 @@ export {
     vibe,
     tradem,
     framer,
-    github
+    github,
+    ccfd
 }
