@@ -35,6 +35,17 @@ const Hero = () => {
           </div>
         </a>
       </motion.div>
+
+      <motion.p animate={{
+          opacity: 1
+        }}
+        transition={{
+          duration: 1,
+          delay: 6
+        }}
+      className="absolute opacity-0 xs:bottom-[4.7rem] bottom-36 w-full flex justify-center items-center sm:text-[14px] text-[12px] text-grayed mb-10">
+      SCROLL UP  
+      </motion.p>
     </div>
   )
 }
