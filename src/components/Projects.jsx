@@ -51,4 +51,4 @@ const Projects = () => {
   )
 }
 
-export default SectionWrapper(Projects, "work")
+export default SectionWrapper(Projects, "projects")

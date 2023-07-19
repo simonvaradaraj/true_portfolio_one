@@ -6,6 +6,8 @@ import tradem from './Tradem-Homepage.png'
 import github from './github.png'
 import ccfd from './ccfd.png'
 
+import hca from './jobs/hca.png'
+
 
 import figma from "./tech/figma.png";
 import sql from "./tech/sql.svg";
@@ -21,6 +23,7 @@ import azure from './tech/azure.svg'
 import framer from './tech/framer-motion.svg'
 
 export {
+    hca,
     menu,
     close,
     figma,

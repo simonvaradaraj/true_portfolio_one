@@ -14,7 +14,8 @@ import {
   holocalc,
   framer,
   sql,
-  ccfd
+  ccfd,
+  hca
 } from "../assets";
 
 export const navLinks = [
@@ -117,3 +118,12 @@ export const projects = [
       source_code_link: "https://github.com/simonvaradaraj/CCFD",
     },
   ];
+
+  export const jobs = [
+    {
+      company: "HCA Healthcare",
+      role: "Data Analyst Intern",
+      description: "Spearheaded the migration of 4 Production ETL Servers using SSIS and SQL. Increased ETL Pipeline efficiency by 15%.",
+      logo: hca
+    }
+  ]
