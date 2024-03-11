@@ -15,7 +15,8 @@ import {
   cpp,
   sql,
   ccfd,
-  hca
+  hca,
+  fidelity
 } from "../assets";
 
 export const navLinks = [
@@ -126,8 +127,24 @@ export const projects = [
   export const jobs = [
     {
       company: "HCA Healthcare",
-      role: "Data Analyst Intern",
-      description: "Spearheaded the migration of 4 Production ETL Servers using SSIS and SQL. Increased ETL Pipeline efficiency by 15%.",
-      logo: hca
+      role: "Data Engineer Intern",
+      date: "May 2023 - July 2023",
+      description: [
+        {bullet: "Contributed to several data migration projects at HCA’s North Texas Branch, aiding the migration of 70 TB of critical patient data and client-side web applications using SSIS and SQL"},
+        {bullet: "Developed optimized ETL pipelines and queries involving multiple joins, subqueries, and aggregate functions which extracted information up to 15% faster than prior implementations"},
+        {bullet: "Actively managed and maintained over 50 production databases, ensuring high availability, performance, and data integrity in a mission-critical environment"}
+      ],
+      logo: hca,
+      location: "Dallas, TX"
+    },
+    {
+      company: "Fidelity Investments",
+      role: "Software Engineer Intern",
+      date: "June 2024 - August 2024",
+      description: [
+        {bullet: "Looking forward to the summer!"}
+      ],
+      logo: fidelity,
+      location: "Westlake, TX"
     }
-  ]
+  ];

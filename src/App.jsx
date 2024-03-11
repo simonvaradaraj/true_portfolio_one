@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom"
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import {Navbar, Hero, StarsCanvas, About, Techno, Projects, Contact} from "./components"
+import {Navbar, Hero, StarsCanvas, About, Techno, Projects, Contact, Works} from "./components"
 
 function App() {
 
@@ -45,7 +45,7 @@ function App() {
         </div>
         <About/>
         <Techno />
-        {/* <Works/> */}
+        <Works/>
         <Projects/>
         <Contact/>
       </div>

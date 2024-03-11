@@ -38,7 +38,7 @@ const Projects = () => {
   return (
     <>
       <motion.div variants={textVariant("", "", .2, 1)}>
-        <p className="sm:text-[16px] text-[14px] tracking-widest">SHOWCASE</p>
+        <p className="sm:text-[16px] text-[14px] tracking-widest mt-[-25px]">SHOWCASE</p>
         <h2 className="font-pp text-[40px]">My Best Projects.</h2>
       </motion.div>
 
