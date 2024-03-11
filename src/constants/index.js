@@ -1,10 +1,10 @@
 import {
-  javascript,
+  gcp,
   reactjs,
-  tailwind,
+  java,
   nodejs,
   figma,
-  threejs,
+  typescript,
   opencv,
   python,
   tensorflow,
@@ -12,7 +12,7 @@ import {
   tradem,
   vibe,
   holocalc,
-  framer,
+  cpp,
   sql,
   ccfd,
   hca
@@ -28,6 +28,10 @@ export const navLinks = [
       title: "WORK",
     },
     {
+      id: "projects",
+      title: "PROJECTS"
+    },
+    {
       id: "contact",
       title: "CONTACT",
     },
@@ -39,20 +43,20 @@ export const technologies = [
       icon: python,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "gcp",
+      icon: gcp,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "framer",
-      icon: framer,
+      name: "cpp",
+      icon: cpp,
     },
     {
       name: "Node JS",
@@ -63,8 +67,8 @@ export const technologies = [
       icon: tensorflow,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Typescript",
+      icon: typescript,
     },
     {
       name: "sql",

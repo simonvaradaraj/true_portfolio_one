@@ -11,16 +11,16 @@ import hca from './jobs/hca.png'
 
 import figma from "./tech/figma.png";
 import sql from "./tech/sql.svg";
-import javascript from "./tech/javascript.png";
+import gcp from "./tech/gcp.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import typescript from "./tech/typescript.png";
 import python from './tech/python.svg'
 import opencv from './tech/opencv.svg'
 import tensorflow from './tech/tensorflow.png'
 import azure from './tech/azure.svg'
-import framer from './tech/framer-motion.svg'
+import cpp from './tech/cpp.png'
 
 export {
     hca,
@@ -28,11 +28,11 @@ export {
     close,
     figma,
     sql,
-    javascript,
+    gcp,
     nodejs,
     reactjs,
-    tailwind,
-    threejs,
+    java,
+    typescript,
     python,
     opencv,
     tensorflow,
@@ -40,7 +40,7 @@ export {
     holocalc,
     vibe,
     tradem,
-    framer,
+    cpp,
     github,
     ccfd
 }

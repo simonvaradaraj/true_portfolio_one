@@ -4,6 +4,7 @@ import About from './About';
 import Techno from './Techno';
 import Projects from './Projects';
 import Contact from './Contact';
+import Works from './Works';
 
 import { HomeCanvas, StarsCanvas, SkateCanvas, MusicCanvas, QueenCanvas, PhoneCanvas } from './canvas'
 
@@ -14,6 +15,7 @@ export {
     Techno,
     Projects,
     Contact,
+    Works,
     HomeCanvas, 
     StarsCanvas,
     SkateCanvas,
