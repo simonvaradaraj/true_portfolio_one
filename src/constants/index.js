@@ -16,7 +16,8 @@ import {
   sql,
   ccfd,
   hca,
-  fidelity
+  fidelity,
+  orgradar
 } from "../assets";
 
 export const navLinks = [
@@ -91,6 +92,14 @@ export const technologies = [
 
 export const projects = [
     {
+      name: "OrgRadar",
+      description:
+        "Student organization ratings website, currently used by 1000+ students at Texas A&M University, managing over 1300+ organizations' data.",
+      tag: "REACT",
+      image: orgradar,
+      source_code_link: "https://github.com/SloanBDavis/TradeEm",
+    },
+    {
       name: "Tradem",
       description:
         "React-based platform that encourages college-students to trade items with each other in order to prevent unnessary waste.",
@@ -142,7 +151,9 @@ export const projects = [
       role: "Software Engineer Intern",
       date: "June 2024 - August 2024",
       description: [
-        {bullet: "Looking forward to the summer!"}
+        {bullet: "Developed a chatbot leveraging Amazon Lex to assist developers in speeding up the creation of access requests for Fidelity’s unified testing platform, leading to a satisfaction rate of over 85%."},
+        {bullet: "Created GraphQL APIs to provide developers with Azure Active Directory groups corresponding to the permissions requested, based on user security credentials."},
+        {bullet: "Employed Jest and Cypress to develop comprehensive unit and integration tests, increasing code coverage to 96%, ensuring high software quality and reliability."}
       ],
       logo: fidelity,
       location: "Westlake, TX"

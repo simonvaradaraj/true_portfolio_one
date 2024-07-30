@@ -5,6 +5,7 @@ import vibe from './Vibe.jpg'
 import tradem from './Tradem-Homepage.png'
 import github from './github.png'
 import ccfd from './ccfd.png'
+import orgradar from './OrgRadar.png'
 
 import hca from './jobs/hca.png'
 import fidelity from './jobs/fidelity.png'
@@ -43,5 +44,6 @@ export {
     tradem,
     cpp,
     github,
-    ccfd
+    ccfd,
+    orgradar
 }
