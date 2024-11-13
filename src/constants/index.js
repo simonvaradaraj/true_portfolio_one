@@ -17,6 +17,7 @@ import {
   ccfd,
   hca,
   fidelity,
+  stanford,
   orgradar
 } from "../assets";
 
@@ -144,6 +145,17 @@ export const projects = [
         {bullet: "Actively managed and maintained over 50 production databases, ensuring high availability, performance, and data integrity in a mission-critical environment"}
       ],
       logo: hca,
+      location: "Dallas, TX"
+    },
+    {
+      company: "Stanford University",
+      role: "Software Engineering Tutor",
+      date: "April 2024 - July 2024",
+      description: [
+        {bullet: "Instructed a global cohort of 15+ students in Python programming through Stanford’s Code in Place initiative, which engaged 13,000 learners across 100+ countries."},
+        {bullet: "Collaborated with fellow leaders to scale Stanford’s renowned CS106A curriculum, making it accessible to thousands of aspiring programmers across the globe."},
+      ],
+      logo: stanford,
       location: "Dallas, TX"
     },
     {

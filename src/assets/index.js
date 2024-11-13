@@ -9,6 +9,7 @@ import orgradar from './OrgRadar.png'
 
 import hca from './jobs/hca.png'
 import fidelity from './jobs/fidelity.png'
+import stanford from './jobs/stanford.png'
 
 import figma from "./tech/figma.png";
 import sql from "./tech/sql.svg";
@@ -26,6 +27,7 @@ import cpp from './tech/cpp.png'
 export {
     hca,
     fidelity,
+    stanford,
     menu,
     close,
     figma,
