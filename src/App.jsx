@@ -1,7 +1,39 @@
 import { BrowserRouter } from "react-router-dom"
-import {Navbar, Hero, StarsCanvas, About, Tech, Projects, Contact} from "./components"
+import { useState, useEffect } from "react"
+import { motion } from "framer-motion"
+import {Navbar, Hero, StarsCanvas, About, Techno, Projects, Contact, Works} from "./components"
 
 function App() {
+
+  // const [mousePosition, setMousePosition] = useState({
+  //   x: 0,
+  //   y: 0
+  // })
+  
+  // console.log(mousePosition)
+
+  // useEffect(() => {
+
+  //   const handleMouseMove = (e) => {
+  //     setMousePosition({
+  //       x: e.clientX,
+  //       y: e.clientY
+  //     })
+  //   }
+
+  //   window.addEventListener('mousemove', handleMouseMove)
+
+  //   return () => {
+  //     window.removeEventListener("mousemove", handleMouseMove)
+  //   }
+  // }, [])
+
+  // const variants = {
+  //   default: {
+  //     x: mousePosition.x,
+  //     y: mousePosition.y
+  //   }
+  // }
 
   return (
     <BrowserRouter>
@@ -12,11 +44,17 @@ function App() {
           <StarsCanvas />
         </div>
         <About/>
-        <Tech/>
+        <Techno />
+        <Works/>
         <Projects/>
         <Contact/>
-
       </div>
+
+      {/* <motion.div 
+      className="bg-white-100 h-[32px] w-[32px] rounded-full fixed top-0 left-0"
+      variants={variants}
+      animate="default"></motion.div> */}
+      
     </BrowserRouter>
   )
 }

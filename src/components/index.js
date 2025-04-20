@@ -1,22 +1,25 @@
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
-import Tech from './Tech';
+import Techno from './Techno';
 import Projects from './Projects';
 import Contact from './Contact';
+import Works from './Works';
 
-import { HomeCanvas, StarsCanvas, QueenCanvas, SkateCanvas, MusicCanvas} from './canvas'
+import { HomeCanvas, StarsCanvas, SkateCanvas, MusicCanvas, QueenCanvas, PhoneCanvas } from './canvas'
 
 export {
     Hero,
     Navbar,
     About,
-    Tech,
+    Techno,
     Projects,
     Contact,
+    Works,
     HomeCanvas, 
     StarsCanvas,
-    QueenCanvas,
     SkateCanvas,
-    MusicCanvas
+    MusicCanvas,
+    QueenCanvas,
+    PhoneCanvas
   }

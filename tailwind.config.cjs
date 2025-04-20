@@ -6,6 +6,8 @@ module.exports = {
     extend: {
       colors: {
         primary: "#151515",
+        phone: '#2E4755',
+        card: '#252525',
         grayed: "#A5A5A5",
         stars: "#FCE097",
         "black-100": "#100d25",
